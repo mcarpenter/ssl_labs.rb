@@ -1,4 +1,5 @@
 Gem::Specification.new do |s|
+  s.add_dependency('activesupport', '>= 4.0.1')
   s.add_dependency('mechanize', '>= 1.0.0')
   s.add_dependency('json', '>= 1.8.1')
   s.authors = ['Martin Carpenter']
