@@ -9,7 +9,7 @@ require 'ssl_labs/info'
 class SslLabs
 
   # Gem version.
-  VERSION = '0.0.1'
+  VERSION = '0.0.2'
 
   # User agent for client.
   USER_AGENT = "ssl_labs.rb #{VERSION}"
