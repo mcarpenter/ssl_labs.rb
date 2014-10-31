@@ -24,9 +24,10 @@ class SslLabs
 
     attr_accessor(*ATTRS)
 
-    def self.from_hash(hash)
+    def self.from_json(str)
+      json = JSON.parse(str)
       endpoint = self.new
-      hash.each do |k, v|
+      json.each do |k, v|
         sym = Util.underscore(k).to_sym
         if ATTRS.include?(sym)
           case sym
