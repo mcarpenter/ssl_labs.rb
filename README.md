@@ -11,3 +11,18 @@ The reference client is at https://github.com/ssllabs/ssllabs-scan
 
 * Tests
 
+* Weirdness: #analyze and #analyze! return different things
+
+* Helper #methods? for boolean attributes
+
+* SslLabs constructor must take a URI string _with a scheme_
+
+* Gem version is hardcoded twice
+
+* `endpoint_data.details.foo` is annoying; remove `details`
+
+* Configurable poll delay
+
+* Cert and ChainCert are melded
+
+* Suites.preference is MIA
