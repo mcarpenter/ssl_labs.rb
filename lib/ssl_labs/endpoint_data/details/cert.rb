@@ -22,7 +22,7 @@ class SslLabs
           :raw,
           :revocation_info,
           :revocation_status,
-          :sgc,
+          :scg,
           :sig_alg,
           :subject,
           :validation_type
@@ -43,8 +43,6 @@ class SslLabs
               cert.not_before = Time.at(v / 1000.0)
             when :ocsp_ur_is
               cert.ocsp_uris = v
-            when :scg
-              cert.sgc = v
             when *ATTRS
               cert.send("#{sym}=", v)
             else
