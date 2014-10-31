@@ -22,5 +22,3 @@ The reference client is at https://github.com/ssllabs/ssllabs-scan
 * Configurable poll delay
 
 * `Cert` and `ChainCert` are melded
-
-* `Suites.preference` is MIA

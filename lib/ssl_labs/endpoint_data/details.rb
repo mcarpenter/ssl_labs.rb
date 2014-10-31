@@ -2,7 +2,7 @@ require 'ssl_labs/endpoint_data/details/cert'
 require 'ssl_labs/endpoint_data/details/chain'
 require 'ssl_labs/endpoint_data/details/key'
 require 'ssl_labs/endpoint_data/details/protocol'
-require 'ssl_labs/endpoint_data/details/suite'
+require 'ssl_labs/endpoint_data/details/suites'
 require 'ssl_labs/endpoint_data/details/sim'
 require 'ssl_labs/util'
 
@@ -65,7 +65,7 @@ class SslLabs
           when :sims
             details.sims = v['results'].map { |hash| Sim.from_hash(hash) }
           when :suites
-            details.suites = v['list'].map { |hash| Suite.from_hash(hash) }
+            details.suites = Suites.from_hash(v)
           when *ATTRS
             details.send("#{sym}=", v)
           else
