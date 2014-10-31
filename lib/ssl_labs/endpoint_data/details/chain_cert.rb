@@ -1,4 +1,4 @@
-require 'ssl_labs/endpoint_data/details/chain_cert'
+require 'ssl_labs/util'
 
 class SslLabs
 
@@ -6,31 +6,33 @@ class SslLabs
 
     class Details
 
-      class Chain
+      class ChainCert
 
         ATTRS = [
-          :certs,
-          :issues
+          :issuer_label,
+          :issuer_subject,
+          :issues,
+          :label,
+          :raw,
+          :subject
         ]
 
         attr_accessor(*ATTRS)
 
         def self.from_hash(hash)
-          chain = self.new
+          chain_cert = self.new
           hash.each do |k, v|
             case sym = Util.underscore(k).to_sym
-            when :certs
-              chain.certs = v.map { |cert| ChainCert.from_hash(cert) }
             when *ATTRS
-              chain.send("#{sym}=", v)
+              chain_cert.send("#{sym}=", v)
             else
               raise ArgumentError, "Unknown key #{k.inspect} (#{sym.inspect})"
             end
           end
-          chain
+          chain_cert
         end
 
-      end # Chain
+      end # ChainCert
 
     end # Details
 

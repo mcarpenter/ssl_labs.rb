@@ -20,5 +20,3 @@ The reference client is at https://github.com/ssllabs/ssllabs-scan
 * `endpoint_data.details.foo` is annoying; remove `details`
 
 * Configurable poll delay
-
-* `Cert` and `ChainCert` are melded

@@ -1,5 +1,6 @@
 require 'ssl_labs/endpoint_data/details/cert'
 require 'ssl_labs/endpoint_data/details/chain'
+require 'ssl_labs/endpoint_data/details/chain_cert'
 require 'ssl_labs/endpoint_data/details/key'
 require 'ssl_labs/endpoint_data/details/protocol'
 require 'ssl_labs/endpoint_data/details/suites'
