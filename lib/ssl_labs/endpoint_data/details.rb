@@ -61,6 +61,8 @@ class SslLabs
             details.host_start_time = Time.at(v / 1000.0)
           when :key
             details.key = Key.from_hash(v)
+          when :npn_protocols
+            details.npn_protocols = v.split
           when :protocols
             details.protocols = v['list'].map { |hash| Protocol.from_hash(hash) }
           when :sims
