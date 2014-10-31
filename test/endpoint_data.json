@@ -1,0 +1,153 @@
+{"ipAddress":"69.58.181.89","serverName":"www-ilg.verisign.net",
+  "statusMessage":"Ready","grade":"B","hasWarnings":true,"isExceptional":
+  false,"progress":100,"duration":44127,"eta":1,"delegation":3,"details":{
+    "hostStartTime":1414709783093,"key":{"size":2048,"alg":"RSA",
+      "debianFlaw":false,"strength":2048},"cert":{"subject":
+      "CN\u003dwww.verisign.com,OU\u003dInfrastructure Operations  ,O\u003dSymantec Corporation,STREET\u003d350 Ellis Street,L\u003dMountain View,ST\u003dCalifornia,2.5.4.17\u003d#14053934303433,C\u003dUS,2.5.4.5\u003d#130732313538313133,2.5.4.15\u003d#131450726976617465204f7267616e697a6174696f6e,1.3.6.1.4.1.311.60.2.1.2\u003d#130844656c6177617265,1.3.6.1.4.1.311.60.2.1.3\u003d#13025553",
+      "commonNames":["www.verisign.com"],"altNames":["www.verisign.com",
+        "verisign.com","www.verisign.net","verisign.net",
+        "www.verisign.mobi","verisign.mobi","www.verisign.eu",
+        "verisign.eu","forms.ws.symantec.com","sslreview.com",
+        "www.sslreview.com","www.symauth.com"],"notBefore":1389830400000,
+      "notAfter":1452988799000,"issuerSubject":
+      "CN\u003dVeriSign Class 3 Extended Validation SSL SGC CA,OU\u003dTerms of use at https://www.verisign.com/rpa (c)06,OU\u003dVeriSign Trust Network,O\u003dVeriSign, Inc.,C\u003dUS",
+      "sigAlg":"SHA1withRSA","issuerLabel":
+      "VeriSign Class 3 Extended Validation SSL SGC CA","revocationInfo":3,
+      "crlURIs":["http://EVIntl-crl.verisign.com/EVIntl2006.crl"],"ocspURIs":
+      ["http://EVIntl-ocsp.verisign.com"],"revocationStatus":2,"scg":1,
+      "validationType":"E","issues":0},"chain":{"certs":[{"subject":
+          "CN\u003dwww.verisign.com,OU\u003dInfrastructure Operations  ,O\u003dSymantec Corporation,STREET\u003d350 Ellis Street,L\u003dMountain View,ST\u003dCalifornia,2.5.4.17\u003d#14053934303433,C\u003dUS,2.5.4.5\u003d#130732313538313133,2.5.4.15\u003d#131450726976617465204f7267616e697a6174696f6e,1.3.6.1.4.1.311.60.2.1.2\u003d#130844656c6177617265,1.3.6.1.4.1.311.60.2.1.3\u003d#13025553",
+          "label":"www.verisign.com","issuerSubject":
+          "CN\u003dVeriSign Class 3 Extended Validation SSL SGC CA,OU\u003dTerms of use at https://www.verisign.com/rpa (c)06,OU\u003dVeriSign Trust Network,O\u003dVeriSign, Inc.,C\u003dUS",
+          "issuerLabel":"VeriSign Class 3 Extended Validation SSL SGC CA",
+          "raw":
+          "-----BEGIN CERTIFICATE-----\nMIIG0jCCBbqgAwIBAgIQRHT74McgkNIJ4CcjNXxCZzANBgkqhkiG9w0BAQUFADCBvjELMAkGA1UE\r\nBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBO\r\nZXR3b3JrMTswOQYDVQQLEzJUZXJtcyBvZiB1c2UgYXQgaHR0cHM6Ly93d3cudmVyaXNpZ24uY29t\r\nL3JwYSAoYykwNjE4MDYGA1UEAxMvVmVyaVNpZ24gQ2xhc3MgMyBFeHRlbmRlZCBWYWxpZGF0aW9u\r\nIFNTTCBTR0MgQ0EwHhcNMTQwMTE2MDAwMDAwWhcNMTYwMTE2MjM1OTU5WjCCASYxEzARBgsrBgEE\r\nAYI3PAIBAxMCVVMxGTAXBgsrBgEEAYI3PAIBAhMIRGVsYXdhcmUxHTAbBgNVBA8TFFByaXZhdGUg\r\nT3JnYW5pemF0aW9uMRAwDgYDVQQFEwcyMTU4MTEzMQswCQYDVQQGEwJVUzEOMAwGA1UEERQFOTQw\r\nNDMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcUDU1vdW50YWluIFZpZXcxGTAXBgNVBAkU\r\nEDM1MCBFbGxpcyBTdHJlZXQxHTAbBgNVBAoUFFN5bWFudGVjIENvcnBvcmF0aW9uMSQwIgYDVQQL\r\nFBtJbmZyYXN0cnVjdHVyZSBPcGVyYXRpb25zICAxGTAXBgNVBAMUEHd3dy52ZXJpc2lnbi5jb20w\r\nggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCrG90iUEhTlnwtoAfqXUHUPBQo3JEKBWEe\r\nwf8/71RFR0O6J5mxF88ODxs/HRGK1wrd8WClqnhMBsvITNB9m+escDpBWpwGNZp4TaYW9HxxtZ7h\r\neaeJjso8M/k3NHdXuFsuPw5L8xxOv9aI0H87LMmImenLxCRmpJQNAKe+jfNTqpuK1tUEYdLzR0n4\r\nu76ZDcGSYSplbCjLcamLTHAhijQQWiUgWC0fUnm4z2zyzT4QwzXIfuf7BCSLfCGY3/KuKO4vybti\r\nUg6ALqMW3JjA149r6DHjIkibwq2wJhFnspm74y0wJq3GE5avUyUrz8XoXexSJPTRuz6jyVayEXeD\r\nZvcJAgMBAAGjggJfMIICWzCB1QYDVR0RBIHNMIHKghB3d3cudmVyaXNpZ24uY29tggx2ZXJpc2ln\r\nbi5jb22CEHd3dy52ZXJpc2lnbi5uZXSCDHZlcmlzaWduLm5ldIIRd3d3LnZlcmlzaWduLm1vYmmC\r\nDXZlcmlzaWduLm1vYmmCD3d3dy52ZXJpc2lnbi5ldYILdmVyaXNpZ24uZXWCFWZvcm1zLndzLnN5\r\nbWFudGVjLmNvbYINc3NscmV2aWV3LmNvbYIRd3d3LnNzbHJldmlldy5jb22CD3d3dy5zeW1hdXRo\r\nLmNvbTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDAoBgNVHSUEITAfBggrBgEFBQcDAQYIKwYB\r\nBQUHAwIGCWCGSAGG+EIEATBEBgNVHSAEPTA7MDkGC2CGSAGG+EUBBxcGMCowKAYIKwYBBQUHAgEW\r\nHGh0dHBzOi8vd3d3LnZlcmlzaWduLmNvbS9jcHMwHQYDVR0OBBYEFFhbQy8r9duhEyHt180crp3U\r\nFY8gMB8GA1UdIwQYMBaAFE5DyB127zdTek/yWG+U8zji1b3fMD4GA1UdHwQ3MDUwM6AxoC+GLWh0\r\ndHA6Ly9FVkludGwtY3JsLnZlcmlzaWduLmNvbS9FVkludGwyMDA2LmNybDB2BggrBgEFBQcBAQRq\r\nMGgwKwYIKwYBBQUHMAGGH2h0dHA6Ly9FVkludGwtb2NzcC52ZXJpc2lnbi5jb20wOQYIKwYBBQUH\r\nMAKGLWh0dHA6Ly9FVkludGwtYWlhLnZlcmlzaWduLmNvbS9FVkludGwyMDA2LmNlcjANBgkqhkiG\r\n9w0BAQUFAAOCAQEAPSZt7qa0z7AbV78LQ20T2c587Pb389khyLLyxQSx/nKqtYIs0sH9qvsdrqEk\r\n3ThUYbTfI4Owh0a87uCCpBTPf/1c1581waHoId7VibSq3IwR71RPhSJu9zmLJ/GSjs/NWcVgbpUI\r\n7JRQlyqffVmMn3w3La/NZBSXspFSMzmDG0G+hUZJJYPabrfinsedFav2e5BihDgGISbMhxeXGuSs\r\nQYLbOF8B9JPUwgBnDCO6IgKGeww+Zb3Uh1FBmCydpZlP4Qn8tkaegGMXtlv4rzdt7wtKpELSbhot\r\nQHlWr06hD9XUlh7UOBvShhM7UDhMFUQ0HjLf/9A11pb71CRaoHfFbQ\u003d\u003d\r\n-----END CERTIFICATE-----\n"},
+        {"subject":
+          "CN\u003dVeriSign Class 3 Extended Validation SSL SGC CA,OU\u003dTerms of use at https://www.verisign.com/rpa (c)06,OU\u003dVeriSign Trust Network,O\u003dVeriSign, Inc.,C\u003dUS",
+          "label":"VeriSign Class 3 Extended Validation SSL SGC CA",
+          "issuerSubject":
+          "CN\u003dVeriSign Class 3 Public Primary Certification Authority - G5,OU\u003d(c) 2006 VeriSign, Inc. - For authorized use only,OU\u003dVeriSign Trust Network,O\u003dVeriSign, Inc.,C\u003dUS",
+          "issuerLabel":
+          "VeriSign Class 3 Public Primary Certification Authority - G5",
+          "raw":
+          "-----BEGIN CERTIFICATE-----\nMIIGHjCCBQagAwIBAgIQLEjdkw31WY75PJlUemDtQzANBgkqhkiG9w0BAQUFADCByjELMAkGA1UE\r\nBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBO\r\nZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVk\r\nIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRp\r\nZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwHhcNMDYxMTA4MDAwMDAwWhcNMTYxMTA3MjM1OTU5WjCB\r\nvjELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2ln\r\nbiBUcnVzdCBOZXR3b3JrMTswOQYDVQQLEzJUZXJtcyBvZiB1c2UgYXQgaHR0cHM6Ly93d3cudmVy\r\naXNpZ24uY29tL3JwYSAoYykwNjE4MDYGA1UEAxMvVmVyaVNpZ24gQ2xhc3MgMyBFeHRlbmRlZCBW\r\nYWxpZGF0aW9uIFNTTCBTR0MgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC9Voi6\r\niDRkZM/NyrDu5xlzxXLZu0W8taj/g74cA9vtibcuEBolvFXKQaGfC88ZXnC5XjlLnjEcX4euKqqo\r\nK6IbOxAjXxOx3QiMThTag4HjtYzjaO0kZ85Wtqybc5ZE24qMs9bwcZOO23FUSutzWWqPcFEsA5+X\r\n0cwRerxiDZUqyRx1V+n1x+q6hDXLx4VafuRN4RGXfQ4gNEXb8aIJ6+s9nriWQ140SwglHkMaotm3\r\nigE0PcP45a9PjP/NZfAjTsWXs1zakByChQ0GDcEitnsopAPDTFPRWLxyvAg5/KB2qKjpS26IPeOz\r\nMSWMcylIDjJ5Bu09Q/T25On8fb6OCNUfAgMBAAGjggIIMIICBDAdBgNVHQ4EFgQUTkPIHXbvN1N6\r\nT/JYb5TzOOLVvd8wEgYDVR0TAQH/BAgwBgEB/wIBADA9BgNVHSAENjA0MDIGBFUdIAAwKjAoBggr\r\nBgEFBQcCARYcaHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL2NwczA9BgNVHR8ENjA0MDKgMKAuhixo\r\ndHRwOi8vRVZTZWN1cmUtY3JsLnZlcmlzaWduLmNvbS9wY2EzLWc1LmNybDAOBgNVHQ8BAf8EBAMC\r\nAQYwEQYJYIZIAYb4QgEBBAQDAgEGMG0GCCsGAQUFBwEMBGEwX6FdoFswWTBXMFUWCWltYWdlL2dp\r\nZjAhMB8wBwYFKw4DAhoEFI/l0xqGrI2Oa8PPgGrUSBgsexkuMCUWI2h0dHA6Ly9sb2dvLnZlcmlz\r\naWduLmNvbS92c2xvZ28uZ2lmMCkGA1UdEQQiMCCkHjAcMRowGAYDVQQDExFDbGFzczNDQTIwNDgt\r\nMS00ODAfBgNVHSMEGDAWgBR/02Wnwt3su/AwCfNDOfoCrzMxMzA9BggrBgEFBQcBAQQxMC8wLQYI\r\nKwYBBQUHMAGGIWh0dHA6Ly9FVlNlY3VyZS1vY3NwLnZlcmlzaWduLmNvbTA0BgNVHSUELTArBglg\r\nhkgBhvhCBAEGCmCGSAGG+EUBCAEGCCsGAQUFBwMBBggrBgEFBQcDAjANBgkqhkiG9w0BAQUFAAOC\r\nAQEAJ3SmNOodneFT1hydDKdbTKln8vAytwEP+0IYON7k7knIE8kL7ATDQHEYcnZDAiNdq3vISBQa\r\nyHsd/PYKnzah0glzcWaWdVE0v5kwUWedVLcmRaxzCCOGJplx9I7X6jmbBgkjv2LdqMS2faSJBz7z\r\nba5AWVB5lzc9Mnh9smNL+eoIaQ4T7ejPu6wFhsoiz4hiXTwiSdhj1SSmve9c48wgOyLq/ETGqOUf\r\n4YbNDE2Pk1PZf+6hCKezMJZJcG6jbD3QY+8lZmPMqrcYF07qcHb2ukKmgDcJTp9miC5rM2bIwHGk\r\nQeta4/wULkuI/a5uW2XpJ+S/5LAjwbJ9W2Il1z4Q1A\u003d\u003d\r\n-----END CERTIFICATE-----\n"},
+        {"subject":
+          "CN\u003dVeriSign Class 3 Public Primary Certification Authority - G5,OU\u003d(c) 2006 VeriSign, Inc. - For authorized use only,OU\u003dVeriSign Trust Network,O\u003dVeriSign, Inc.,C\u003dUS",
+          "label":
+          "VeriSign Class 3 Public Primary Certification Authority - G5",
+          "issuerSubject":
+          "OU\u003dClass 3 Public Primary Certification Authority,O\u003dVeriSign, Inc.,C\u003dUS",
+          "issuerLabel":"Class 3 Public Primary Certification Authority",
+          "raw":
+          "-----BEGIN CERTIFICATE-----\nMIIExjCCBC+gAwIBAgIQNZcxh/OHOgcyfs5YDJt+2jANBgkqhkiG9w0BAQUFADBfMQswCQYDVQQG\r\nEwJVUzEXMBUGA1UEChMOVmVyaVNpZ24sIEluYy4xNzA1BgNVBAsTLkNsYXNzIDMgUHVibGljIFBy\r\naW1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMDYxMTA4MDAwMDAwWhcNMjExMTA3MjM1\r\nOTU5WjCByjELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZW\r\nZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAt\r\nIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1Ymxp\r\nYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwggEiMA0GCSqGSIb3DQEBAQUA\r\nA4IBDwAwggEKAoIBAQCvJAgIKXo1nmAMqudLO07cfLw8RRy7K+D+KQL5VwijZIUVJ/XxrcgxiV0i\r\n6CqqpkKzj/i5Vbext0uz/o9+B1fs70PbZmIVYc9gDaTY3vjgw2IIPVQT60nKWVSFJuUrjxuf6/Wh\r\nkcIzSdhDY2pSS9KP6HBRTdGJaXvHcPaz3BJ023tdS1bTlr8Vd6Gw9KIl8q8ckmcY5fQGBO+QueQA\r\n5N06tRn/Arr0PO7gi+s3i+z016zy9vA9r911kTMZHRxAy3QkGSGT2RT+rCpSx4/VBEnkjWNHiDxp\r\ng8v+R70rfk/Fla4OndTRQ8Bnc+MUCH7lP59zuDMKz10/NIeWiu5T6CUVAgMBAAGjggGRMIIBjTAP\r\nBgNVHRMBAf8EBTADAQH/MDEGA1UdHwQqMCgwJqAkoCKGIGh0dHA6Ly9jcmwudmVyaXNpZ24uY29t\r\nL3BjYTMuY3JsMA4GA1UdDwEB/wQEAwIBBjA9BgNVHSAENjA0MDIGBFUdIAAwKjAoBggrBgEFBQcC\r\nARYcaHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL2NwczAdBgNVHQ4EFgQUf9Nlp8Ld7LvwMAnzQzn6\r\nAq8zMTMwNAYDVR0lBC0wKwYJYIZIAYb4QgQBBgpghkgBhvhFAQgBBggrBgEFBQcDAQYIKwYBBQUH\r\nAwIwbQYIKwYBBQUHAQwEYTBfoV2gWzBZMFcwVRYJaW1hZ2UvZ2lmMCEwHzAHBgUrDgMCGgQUj+XT\r\nGoasjY5rw8+AatRIGCx7GS4wJRYjaHR0cDovL2xvZ28udmVyaXNpZ24uY29tL3ZzbG9nby5naWYw\r\nNAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC52ZXJpc2lnbi5jb20wDQYJ\r\nKoZIhvcNAQEFBQADgYEADyWuSO0bM4VMDLXC1/5N1oMoTEFlYAALd0hxgv5/21oOIMzS6ke8ZEJh\r\nRDR0MIGBJopK90RdfjSAqLiD4gnXbSPdie0oCL1jWhFXCMSe2uJoKK/dUDzsgiHYAMJVRFBwQa2D\r\nF3m6CPMr3u00HUSe0gST9MsFFy0JLS1j7/YmC3s\u003d\r\n-----END CERTIFICATE-----\n"}],
+      "issues":4},"protocols":{"list":[{"id":769,"name":"TLS","version":
+          "1.0"}]},"suites":{"list":[{"id":9,"name":
+          "TLS_RSA_WITH_DES_CBC_SHA","cipherStrength":56,"q":0},{"id":21,
+          "name":"TLS_DHE_RSA_WITH_DES_CBC_SHA","cipherStrength":56,
+          "dhStrength":1024,"dhP":128,"dhG":1,"dhYs":128,"q":0},{"id":4,
+          "name":"TLS_RSA_WITH_RC4_128_MD5","cipherStrength":128},{"id":5,
+          "name":"TLS_RSA_WITH_RC4_128_SHA","cipherStrength":128},{"id":47,
+          "name":"TLS_RSA_WITH_AES_128_CBC_SHA","cipherStrength":128},{"id":
+          51,"name":"TLS_DHE_RSA_WITH_AES_128_CBC_SHA","cipherStrength":
+          128,"dhStrength":1024,"dhP":128,"dhG":1,"dhYs":128},{"id":65,
+          "name":"TLS_RSA_WITH_CAMELLIA_128_CBC_SHA","cipherStrength":128},{
+          "id":69,"name":"TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA",
+          "cipherStrength":128,"dhStrength":1024,"dhP":128,"dhG":1,"dhYs":
+          128},{"id":150,"name":"TLS_RSA_WITH_SEED_CBC_SHA","cipherStrength":
+          128},{"id":154,"name":"TLS_DHE_RSA_WITH_SEED_CBC_SHA",
+          "cipherStrength":128,"dhStrength":1024,"dhP":128,"dhG":1,"dhYs":
+          128},{"id":10,"name":"TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+          "cipherStrength":168},{"id":22,"name":
+          "TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA","cipherStrength":168,
+          "dhStrength":1024,"dhP":128,"dhG":1,"dhYs":128},{"id":53,"name":
+          "TLS_RSA_WITH_AES_256_CBC_SHA","cipherStrength":256},{"id":57,
+          "name":"TLS_DHE_RSA_WITH_AES_256_CBC_SHA","cipherStrength":256,
+          "dhStrength":1024,"dhP":128,"dhG":1,"dhYs":128},{"id":132,"name":
+          "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA","cipherStrength":256},{"id":
+          136,"name":"TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA",
+          "cipherStrength":256,"dhStrength":1024,"dhP":128,"dhG":1,"dhYs":
+          128}],"preference":false},"serverSignature":"Apache",
+    "prefixDelegation":true,"nonPrefixDelegation":true,"vulnBeast":true,
+    "renegSupport":2,"sessionResumption":2,"compressionMethods":0,
+    "supportsNpn":false,"sessionTickets":1,"ocspStapling":false,
+    "sniRequired":false,"httpStatusCode":200,"supportsRc4":true,
+    "forwardSecrecy":1,"rc4WithModern":false,"sims":{"results":[{"client":{
+            "id":56,"name":"Android","version":"2.3.7","isReference":false},
+          "errorCode":0,"attempts":1,"protocolId":769,"suiteId":4},{"client":
+          {"id":58,"name":"Android","version":"4.0.4","isReference":false},
+          "errorCode":0,"attempts":1,"protocolId":769,"suiteId":57},{
+          "client":{"id":59,"name":"Android","version":"4.1.1","isReference":
+            false},"errorCode":0,"attempts":1,"protocolId":769,"suiteId":
+          57},{"client":{"id":60,"name":"Android","version":"4.2.2",
+            "isReference":false},"errorCode":0,"attempts":1,"protocolId":
+          769,"suiteId":57},{"client":{"id":61,"name":"Android","version":
+            "4.3","isReference":false},"errorCode":0,"attempts":1,
+          "protocolId":769,"suiteId":57},{"client":{"id":62,"name":
+            "Android","version":"4.4.2","isReference":false},"errorCode":0,
+          "attempts":1,"protocolId":769,"suiteId":57},{"client":{"id":41,
+            "name":"BingBot","version":"Dec 2013","isReference":false},
+          "errorCode":0,"attempts":1,"protocolId":769,"suiteId":47},{
+          "client":{"id":74,"name":"BingPreview","version":"Jun 2014",
+            "isReference":false},"errorCode":0,"attempts":1,"protocolId":
+          769,"suiteId":57},{"client":{"id":80,"name":"Chrome","platform":
+            "OS X","version":"37","isReference":true},"errorCode":0,
+          "attempts":1,"protocolId":769,"suiteId":51},{"client":{"id":48,
+            "name":"Firefox","platform":"Win 7","version":"24.2.0 ESR",
+            "isReference":false},"errorCode":0,"attempts":1,"protocolId":
+          769,"suiteId":136},{"client":{"id":79,"name":"Firefox","platform":
+            "OS X","version":"32","isReference":true},"errorCode":0,
+          "attempts":1,"protocolId":769,"suiteId":51},{"client":{"id":72,
+            "name":"Googlebot","version":"Jun 2014","isReference":false},
+          "errorCode":0,"attempts":1,"protocolId":769,"suiteId":5},{"client":
+          {"id":18,"name":"IE","platform":"XP","version":"6","isReference":
+            false},"errorCode":1,"attempts":1},{"client":{"id":19,"name":
+            "IE","platform":"Vista","version":"7","isReference":false},
+          "errorCode":0,"attempts":1,"protocolId":769,"suiteId":47},{
+          "client":{"id":20,"name":"IE","platform":"XP","version":"8",
+            "isReference":false},"errorCode":0,"attempts":1,"protocolId":
+          769,"suiteId":4},{"client":{"id":23,"name":"IE","platform":
+            "Win 7","version":"8-10","isReference":true},"errorCode":0,
+          "attempts":1,"protocolId":769,"suiteId":47},{"client":{"id":23,
+            "name":"IE","platform":"Win 7","version":"11","isReference":
+            true},"errorCode":0,"attempts":1,"protocolId":769,"suiteId":47},{
+          "client":{"id":71,"name":"IE","platform":"Win 8.1","version":
+            "11","isReference":true},"errorCode":0,"attempts":1,"protocolId":
+          769,"suiteId":53},{"client":{"id":81,"name":"IE","platform":
+            "Win 10 Preview","version":"11","isReference":true},"errorCode":
+          0,"attempts":1,"protocolId":769,"suiteId":53},{"client":{"id":64,
+            "name":"IE Mobile","platform":"Win Phone 8.0","version":"10",
+            "isReference":false},"errorCode":0,"attempts":1,"protocolId":
+          769,"suiteId":47},{"client":{"id":65,"name":"IE Mobile","platform":
+            "Win Phone 8.1","version":"11","isReference":false},"errorCode":
+          0,"attempts":1,"protocolId":769,"suiteId":47},{"client":{"id":25,
+            "name":"Java","version":"6u45","isReference":false},"errorCode":
+          0,"attempts":1,"protocolId":769,"suiteId":4},{"client":{"id":26,
+            "name":"Java","version":"7u25","isReference":false},"errorCode":
+          0,"attempts":1,"protocolId":769,"suiteId":47},{"client":{"id":53,
+            "name":"Java","version":"8b132","isReference":false},"errorCode":
+          0,"attempts":1,"protocolId":769,"suiteId":47},{"client":{"id":27,
+            "name":"OpenSSL","version":"0.9.8y","isReference":false},
+          "errorCode":0,"attempts":1,"protocolId":769,"suiteId":57},{
+          "client":{"id":28,"name":"OpenSSL","version":"1.0.1h",
+            "isReference":false},"errorCode":0,"attempts":1,"protocolId":
+          769,"suiteId":57},{"client":{"id":32,"name":"Safari","platform":
+            "OS X 10.6.8","version":"5.1.9","isReference":false},"errorCode":
+          0,"attempts":1,"protocolId":769,"suiteId":47},{"client":{"id":33,
+            "name":"Safari","platform":"iOS 6.0.1","version":"6",
+            "isReference":true},"errorCode":0,"attempts":1,"protocolId":
+          769,"suiteId":47},{"client":{"id":63,"name":"Safari","platform":
+            "iOS 7.1","version":"7","isReference":true},"errorCode":0,
+          "attempts":1,"protocolId":769,"suiteId":47},{"client":{"id":75,
+            "name":"Safari","platform":"iOS 8.0 Beta","version":"8",
+            "isReference":true},"errorCode":0,"attempts":1,"protocolId":
+          769,"suiteId":57},{"client":{"id":34,"name":"Safari","platform":
+            "OS X 10.8.4","version":"6.0.4","isReference":true},"errorCode":
+          0,"attempts":1,"protocolId":769,"suiteId":47},{"client":{"id":35,
+            "name":"Safari","platform":"OS X 10.9","version":"7",
+            "isReference":true},"errorCode":0,"attempts":1,"protocolId":
+          769,"suiteId":47},{"client":{"id":73,"name":"Yahoo Slurp",
+            "version":"Jun 2014","isReference":false},"errorCode":0,
+          "attempts":1,"protocolId":769,"suiteId":57},{"client":{"id":78,
+            "name":"YandexBot","version":"Sep 2014","isReference":false},
+          "errorCode":0,"attempts":1,"protocolId":769,"suiteId":57}]},
+    "heartbleed":false,"heartbeat":false,"openSslCcs":2}}
