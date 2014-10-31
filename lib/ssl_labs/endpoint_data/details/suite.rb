@@ -9,13 +9,15 @@ class SslLabs
       class Suite
 
         ATTRS = [
+          :cipher_strength,
+          :dh_g,
+          :dh_p,
+          :dh_strength,
+          :dh_ys,
+          :ecdh_bits,
+          :ecdh_strength,
           :id,
           :name,
-          :cipher_strength,
-          :dh_strength,
-          :dh_p,
-          :dh_g,
-          :dh_ys,
           :q
         ]
 
