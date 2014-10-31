@@ -4,6 +4,8 @@ require 'rake/testtask'
 require 'rdoc/task'
 require 'rubygems/package_task'
 
+load File.join(File.dirname(__FILE__), 'lib', 'ssl_labs', 'version.rb')
+
 desc 'Default task (package)'
 task :default => [:package]
 

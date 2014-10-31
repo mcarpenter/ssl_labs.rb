@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
   s.rubyforge_project = nil
   s.summary = 'ssllabs.com SSL/TLS vulnerability scanning client'
   s.test_files = FileList["{test}/**/test_*.rb"].to_a
-  s.version = '0.0.2'
+  s.version = SslLabs::VERSION
 end

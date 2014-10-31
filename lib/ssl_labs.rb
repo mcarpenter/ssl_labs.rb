@@ -5,11 +5,9 @@ require 'ssl_labs/api'
 require 'ssl_labs/endpoint_data'
 require 'ssl_labs/host'
 require 'ssl_labs/info'
+require 'ssl_labs/version'
 
 class SslLabs
-
-  # Gem version.
-  VERSION = '0.0.2'
 
   # User agent for client.
   USER_AGENT = "ssl_labs.rb #{VERSION}"
