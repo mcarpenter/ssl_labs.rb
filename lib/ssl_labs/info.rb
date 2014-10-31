@@ -1,5 +1,7 @@
 require 'json'
 
+require 'ssl_labs/util'
+
 class SslLabs
 
   class Info
@@ -17,13 +19,11 @@ class SslLabs
       json = JSON.parse(str)
       info = self.new
       json.each do |k, v|
-        case k
-        when 'engineVersion'
-          info.engine_version = v
-        when 'criteriaVersion'
-          info.criteria_version = v
-        when 'clientMaxAssessments'
+        case sym = Util.underscore(k).to_sym
+        when :client_max_assessments
           info.client_max_assessments = v.to_i
+        when *ATTRS
+          info.send("#{sym}=", v)
         else
           raise ArgumentError, "Unknown key #{k.inspect}"
         end

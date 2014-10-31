@@ -18,8 +18,7 @@ class SslLabs
         def self.from_hash(hash)
           chain = self.new
           hash.each do |k, v|
-            sym = Util.underscore(k).to_sym
-            case sym
+            case sym = Util.underscore(k).to_sym
             when :certs
               chain.certs = v.map { |cert| Cert.from_hash(cert) }
             when *ATTRS

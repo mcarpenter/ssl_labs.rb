@@ -19,8 +19,8 @@ class SslLabs
         def self.from_hash(hash)
           protocol = self.new
           hash.each do |k, v|
-            sym = Util.underscore(k).to_sym
-            if ATTRS.include?(sym)
+            case sym = Util.underscore(k).to_sym
+            when *ATTRS
               protocol.send("#{sym}=", v)
             else
               raise ArgumentError, "Unknown key #{k.inspect} (#{sym.inspect})"

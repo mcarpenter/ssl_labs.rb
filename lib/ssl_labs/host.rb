@@ -36,16 +36,13 @@ class SslLabs
       json = JSON.parse(str)
       host = self.new
       json.each do |k, v|
-        sym = Util.underscore(k).to_sym
-        if ATTRS.include?(sym)
-          case sym
-          when :start_time
-            host.start_time = Time.at(v / 1000.0)
-          when :endpoints
-            host.endpoints += v.map { |ep| Endpoint.from_hash(ep) }
-          else
-            host.send("#{sym}=", v)
-          end
+        case sym = Util.underscore(k).to_sym
+        when :start_time
+          host.start_time = Time.at(v / 1000.0)
+        when :endpoints
+          host.endpoints = v.map { |ep| Endpoint.from_hash(ep) }
+        when *ATTRS
+          host.send("#{sym}=", v)
         else
           raise ArgumentError, "Unknown JSON key #{k.inspect} (#{sym.inspect})"
         end

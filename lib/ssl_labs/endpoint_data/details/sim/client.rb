@@ -22,8 +22,8 @@ class SslLabs
           def self.from_hash(hash)
             client = self.new
             hash.each do |k, v|
-              sym = Util.underscore(k).to_sym
-              if ATTRS.include?(sym)
+              case sym = Util.underscore(k).to_sym
+              when *ATTRS
                 client.send("#{sym}=", v)
               else
                 raise ArgumentError, "Unknown key #{k.inspect} (#{sym.inspect})"

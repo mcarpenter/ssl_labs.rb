@@ -28,16 +28,13 @@ class SslLabs
       json = JSON.parse(str)
       endpoint = self.new
       json.each do |k, v|
-        sym = Util.underscore(k).to_sym
-        if ATTRS.include?(sym)
-          case sym
-          when :ip_address
-            endpoint.ip_address = IPAddr.new(v)
-          when :details
-            endpoint.details = EndpointData::Details.from_hash(v)
-          else
-            endpoint.send("#{sym}=", v)
-          end
+        case sym = Util.underscore(k).to_sym
+        when :ip_address
+          endpoint.ip_address = IPAddr.new(v)
+        when :details
+          endpoint.details = EndpointData::Details.from_hash(v)
+        when *ATTRS
+          endpoint.send("#{sym}=", v)
         else
           raise ArgumentError, "Unknown key #{k.inspect} (#{sym})"
         end

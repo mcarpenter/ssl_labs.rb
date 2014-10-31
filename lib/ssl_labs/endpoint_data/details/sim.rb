@@ -22,10 +22,10 @@ class SslLabs
         def self.from_hash(hash)
           sim = self.new
           hash.each do |k, v|
-            sym = Util.underscore(k).to_sym
-            if sym == :client
+            case sym = Util.underscore(k).to_sym
+            when :client
               sim.client = Sim::Client.from_hash(v)
-            elsif ATTRS.include?(sym)
+            when *ATTRS
               sim.send("#{sym}=", v)
             else
               raise ArgumentError, "Unknown key #{k.inspect} (#{sym.inspect})"

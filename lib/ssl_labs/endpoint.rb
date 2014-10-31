@@ -28,12 +28,11 @@ class SslLabs
       endpoint = self.new
       hash.each do |k, v|
         sym = Util.underscore(k).to_sym
-        if ATTRS.include?(sym)
-          if sym == :ip_address
-            endpoint.ip_address = IPAddr.new(v)
-          else
-            endpoint.send("#{sym}=", v)
-          end
+        case sym
+        when :ip_address
+          endpoint.ip_address = IPAddr.new(v)
+        when *ATTRS
+          endpoint.send("#{sym}=", v)
         else
           raise ArgumentError, "Unknown key #{k.inspect} (#{sym})"
         end

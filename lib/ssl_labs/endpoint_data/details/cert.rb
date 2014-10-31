@@ -33,8 +33,7 @@ class SslLabs
         def self.from_hash(hash)
           cert = self.new
           hash.each do |k, v|
-            sym = Util.underscore(k).to_sym
-            case sym
+            case sym = Util.underscore(k).to_sym
             when :crl_ur_is
               cert.crl_uris = v
             when :not_after

@@ -33,14 +33,15 @@ class SslLabs
     opts_a = opts.flat_map do |k, v|
       case k
       when :publish, :clear_cache, :from_cache
-        [k, v ? 'on' : 'off']
+        [k, v ? :on : :off]
       when :all
-        if v == true
-          [k, 'on']
-        elsif v == :done
+        case v
+        when true
+          [k, :on]
+        when :done
           [k, v]
         else
-          raise ArgumentError, "Invalid value for option #{k.inspect}"
+          raise ArgumentError, "Invalid value #{v.inspect} for option #{k.inspect}"
         end
       else
         raise ArgumentError, "Invalid option #{k.inspect}"
@@ -67,7 +68,7 @@ class SslLabs
     body = invoke(:get_endpoint_data,
                   :host => uri.host,
                   :s => ep.ip_address,
-                  :from_cache => from_cache ? 'on' : 'off')
+                  :from_cache => from_cache ? :on : :off)
     EndpointData.from_json(body)
   end
 
