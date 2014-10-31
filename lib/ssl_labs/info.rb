@@ -9,7 +9,8 @@ class SslLabs
     ATTRS = [
       :engine_version,
       :criteria_version,
-      :client_max_assessments
+      :client_max_assessments,
+      :notice
     ]
 
     attr_accessor(*ATTRS)

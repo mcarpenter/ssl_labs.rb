@@ -6,6 +6,7 @@ class SslLabs
   class Host
 
     ATTRS = [
+      :cache_expiry_time,
       :criteria_version,
       :delegation,
       :duration,
@@ -37,8 +38,12 @@ class SslLabs
       host = self.new
       json.each do |k, v|
         case sym = Util.underscore(k).to_sym
+        when :cache_expiry_time
+          host.cache_expiry_time = Time.at(v / 1000.0)
         when :start_time
           host.start_time = Time.at(v / 1000.0)
+        when :test_time
+          host.test_time = Time.at(v / 1000.0)
         when :endpoints
           host.endpoints = v.map { |ep| Endpoint.from_hash(ep) }
         when *ATTRS

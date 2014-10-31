@@ -11,6 +11,8 @@ class SslLabs
         ATTRS = [
           :id,
           :name,
+          :q,
+          :v2_suites_disabled,
           :version
         ]
 
