@@ -40,7 +40,7 @@ class SslLabs
         :sni_required,
         :sts_response_header,
         :sts_max_age,
-        :sts_sub_domains,
+        :sts_subdomains,
         :suites,
         :supports_npn,
         :supports_rc4,
