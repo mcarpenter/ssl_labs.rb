@@ -26,7 +26,7 @@ class SslLabs
         when *ATTRS
           info.send("#{sym}=", v)
         else
-          raise ArgumentError, "Unknown key #{k.inspect}"
+          raise ArgumentError, "Unknown key #{k.inspect} (#{sym.inspect})"
         end
         info
       end

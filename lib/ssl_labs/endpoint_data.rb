@@ -36,7 +36,7 @@ class SslLabs
         when *ATTRS
           endpoint.send("#{sym}=", v)
         else
-          raise ArgumentError, "Unknown key #{k.inspect} (#{sym})"
+          raise ArgumentError, "Unknown key #{k.inspect} (#{sym.inspect})"
         end
       end
       endpoint
